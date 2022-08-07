@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <form action="lab2file.php">
+        <label>1.ชื่อเต็ม/ย่อของสาขาวิชา:
+            <select name="subject">
+                <option value="---เลือก---"> ---เลือก---</option>
+                <option value="วิทยาการคอมพิวเตอร์ CS"> วิทยาการคอมพิวเตอร์ CS</option>
+                <option value="เคมีอุตสาหกรรม IC"> เคมีอุตสาหกรรม IC</option>
+                <option value="คณิตศาสตร์ประยุกต์ MA"> คณิตศาสตร์ประยุกต์ MA</option>
+                <option value="ฟิสิกประยุกต์ MAP"> ฟิสิกประยุกต์ MAP</option>
+            </select>
+        </label></br>
+
+
+        <label>2.จำนวนเงินที่จะโอน:
+            <input type="text" name="username" placeholder="Number" pattern="[0-9]{1,13}.[0-9]{1,13}">
+        </label></br>
+
+
+        <label>3.อาหารที่ชื่นชอบ 5 ชนิดที่ชื่นชอบจากมากไปน้อย: 1.
+            <select name="food">
+                <option value="---เลือก---"> ---เลือก---</option>
+                <option value="กะเพรา"> กะเพรา</option>
+                <option value="ผัดพริกแกง"> ผัดพริกแกง</option>
+                <option value="ต้มยำ"> ต้มยำ</option>
+                <option value="ลาบ"> ลาบ</option>
+                <option value="สุกี้"> สุกี้</option>
+            </select>
+        </label>
+        <label>2.
+            <select name="food">
+                <option value="---เลือก---"> ---เลือก---</option>
+                <option value="กะเพรา"> กะเพรา</option>
+                <option value="ผัดพริกแกง"> ผัดพริกแกง</option>
+                <option value="ต้มยำ"> ต้มยำ</option>
+                <option value="ลาบ"> ลาบ</option>
+                <option value="สุกี้"> สุกี้</option>
+            </select>
+        </label>
+        <label>3.
+            <select name="food">
+                <option value="---เลือก---"> ---เลือก---</option>
+                <option value="กะเพรา"> กะเพรา</option>
+                <option value="ผัดพริกแกง"> ผัดพริกแกง</option>
+                <option value="ต้มยำ"> ต้มยำ</option>
+                <option value="ลาบ"> ลาบ</option>
+                <option value="สุกี้"> สุกี้</option>
+            </select>
+        </label>
+        <label>4.
+            <select name="food">
+                <option value="---เลือก---"> ---เลือก---</option>
+                <option value="กะเพรา"> กะเพรา</option>
+                <option value="ผัดพริกแกง"> ผัดพริกแกง</option>
+                <option value="ต้มยำ"> ต้มยำ</option>
+                <option value="ลาบ"> ลาบ</option>
+                <option value="สุกี้"> สุกี้</option>
+            </select>
+        </label>
+        <label>5.
+            <select name="food">
+                <option value="---เลือก---"> ---เลือก---</option>
+                <option value="กะเพรา"> กะเพรา</option>
+                <option value="ผัดพริกแกง"> ผัดพริกแกง</option>
+                <option value="ต้มยำ"> ต้มยำ</option>
+                <option value="ลาบ"> ลาบ</option>
+                <option value="สุกี้"> สุกี้</option>
+            </select>
+        </label></br>
+        
+
+        <label>4.ค่าไฟฟ้า 3 เดือนที่ผ่านมา:</label></br>
+        <label> เดือนที่ 1: <input type="text" name="month1" placeholder="Number" pattern="[0-9]{1,13}.[0-9]{1,13}"></label></br>
+        <label> เดือนที่ 2: <input type="text" name="month2" placeholder="Number" pattern="[0-9]{1,13}.[0-9]{1,13}"></label></br>
+        <label> เดือนที่ 3: <input type="text" name="month3" placeholder="Number" pattern="[0-9]{1,13}.[0-9]{1,13}"></label></br>
+        
+        
+        <label>5.รหัสบัตรประชาชน:
+            <input type="text" name="ID card code" placeholder="Number" pattern="[0-9]{1,13}">
+        </label></br>
+        
+
+        <label>6.ความพึงพอใจของหนังสือเล่มนี้
+            <input type="radio" name="feel" value="VeryGood">ดีมาก
+            <input type="radio" name="feel" value="Good">ดี
+            <input type="radio" name="feel" value="Averge">กลางๆ
+            <input type="radio" name="feel" value="Poor">แย่
+            <input type="radio" name="feel" value="VeryPoor">แย่มาก
+        </label></br>
+
+
+        <label>7.อาการป่วย :
+            <input type="checkbox" name="vehicle" value="cough">ไอ
+            <input type="checkbox" name="vehicle" value="fever">มีไข้
+            <input type="checkbox" name="vehicle" value="runny">มีน้ำมูก
+            <input type="checkbox" name="vehicle" value="pain">ปวดเมื่อยตัว
+            <input type="checkbox" name="vehicle" value="sorethroat">เจ็บคอ
+        </label></br>
+
+
+        <label>8.ในช่วง 3 เดือนที่ผ่านมาเคยได้รับวัคซีนหรือไม่
+            <input type="radio" name="vaccine" value="ever" />เคย
+            <input type="radio" name="vaccine" value="never">ไม่เคย
+        </label></br>
+
+
+        <label>9.รหัสผ่าน
+            <input type="password" name="pwd">
+        </label></br>
+
+
+        <label for="appt">10.เวลาเริ่มเข้าเรียนและสิ้นสุดการเรียน:</label>
+        <input type="time" id="appt" name="appt">
+        <label for="appt">ถึง:</label>
+        <input type="time" id="appt" name="appt">
+        </label></br>
+
+        
+        <label for="dayandtime">11.วันเวลาที่ต้องไปพบแพทย์:</label>
+        <input type="datetime-local" id="dayandtime" name="dayandtime">
+        <p><input type="submit" value="Submit"></p>
+    </form>
+</body>
+</html>
